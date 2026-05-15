@@ -4,7 +4,7 @@ return [
     /*
     | Where the parent / SSO provider lives.
     */
-    'provider_url' => env('SSO_PROVIDER_URL', 'https://dev.performancehorsehotline.com'),
+    'provider_url' => env('SSO_PROVIDER_URL', 'https://dev.hotlinewebsites.com'),
 
     /*
     | The client_id this child app uses with the provider.
