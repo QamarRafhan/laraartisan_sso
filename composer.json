@@ -1,0 +1,19 @@
+{
+    "name": "laraartisan/laraartisan-sso-client",
+    "description": "\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[CThe Laravel-based SSO package enabling centralized authentication across multiple Laravel applications with secure token-based login and user synchronization",
+    "require": {
+        "php": "8.2\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C^8.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laraartisan\\LaraartisanSsoClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "laraartisan"
+        }
+    ],
+    "minimum-stability": "stable"
+}
