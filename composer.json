@@ -3,14 +3,24 @@
     "description": "Laravel-based SSO package enabling centralized authentication across multiple Laravel applications with secure token-based login and user synchronization",
     "type": "library",
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Laraartisan\\LaraartisanSsoClient\\": "src/"
+            "Laraartisan\\SsoClient\\": "src/"
         }
     },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laraartisan\\SsoClient\\SsoClientServiceProvider"
+            ]
+        }
+    },
+
     "authors": [
         {
             "name": "laraartisan"
